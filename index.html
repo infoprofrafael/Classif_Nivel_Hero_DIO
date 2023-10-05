@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body class="container">
+    <header class="container info-container">
+        <h1>PARTIDAS RANKEADAS</h1>
+        <P>-----------------------------------------</P>
+        <h2>Prove que você é um verdadeiro <span id="destack"><em>GUERREIRO</em></span> </h2>
+        <p>Informando dados simples saberás o teu nível</p>
+    <!-- <br> -->
+    </header>
+    <main>
+        <div class="nameLocal"></div>
+        <div class="inputs">
+            
+            <label for="victorys">Vitórias</label>
+            <input class="getInput" id="victorys" name="victorys" type="number">
+
+            <label for="losers">Derrotas</label><input class="getInput" id="losers" name="losers" type="number">
+
+            <button onclick="render()">Ok</button>
+
+        </div>
+        <div class="result"></div>
+
+    </main>
+    <footer>
+
+    </footer>
+    <script src="index.js"></script>
+</body>
+
+</html>
